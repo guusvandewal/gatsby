@@ -5,5 +5,19 @@
  */
 
 module.exports = {
-  /* Your site config here */
-}
+  siteMetadata: {
+    title: `Meta Pandas`,
+    guusData: {
+      test: `Data van Guus`,
+    },
+  },
+  plugins: [
+    `gatsby-plugin-emotion`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+  ],
+};
