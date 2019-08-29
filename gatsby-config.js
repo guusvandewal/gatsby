@@ -10,6 +10,7 @@ module.exports = {
     guusData: {
       test: `Data van Guus`,
     },
+    pathPrefix: "/gatsby",
   },
   plugins: [
     {
